@@ -3,8 +3,51 @@
   <head> <!--does not show in browser --> 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>page2</title>
-  </head>
-  <body> 
-  </body>
+  <title>Still Perfect</title>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f0f0f0;
+      }
+      header { Photography Portfolio
+          background-color: #333;
+          color: #fff;
+          padding: 10px 20px;
+          text-align: center;
+      }
+      .container {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 0 20px;
+      }
+      button {
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+      }
+      button:hover {
+          background-color: #0056b3;
+      }
+  </style>
+</head>
+<body>
+  <header>
+      <h1>Welcome to My Website</h1>
+  </header>
+  <div class="container">
+      <h2>About Us</h2>
+      <p>This is a simple website created using HTML, CSS, and JavaScript.</p>
+      <button id="myButton">Click Me!</button>
+  </div>
+  <script>
+      // JavaScript code
+      document.getElementById('myButton').addEventListener('click', function() {
+          alert('You clicked the button!');
+      });
+  </script>
+</body>
 </html>
