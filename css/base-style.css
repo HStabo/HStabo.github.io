@@ -1,0 +1,24 @@
+/* base style for example html */
+* {
+    font-family: Mirza;
+}
+
+h1 {
+    color: rgb(14, 3, 11);
+    background-color: rgb(222, 197, 35)
+  }
+
+  div {
+
+    background-color: rgb(222, 197, 35);
+    width: 300px;
+    border: 15px solid rgb(96, 99, 167);
+    padding: 50px;
+    margin: 20px;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  } 
