@@ -8,14 +8,14 @@ body {
 
   }
 .all-stuff, footer{
-    background-color: hsl(59, 65%, 61%);
-    border: 1rem solid hsl(234, 54%, 57%);
+    background-color: #dcda5b;
+    border: 1rem solid #5662cd;
     padding: 10rem;
     margin: 5rem;
 }
 h1 {
-    color: hsl(316, 66%, 23%);
-    background-color: hsl(59, 65%, 61%)
+    color: #61144d;
+    background-color: #dcda5b
   }
 
 
@@ -24,7 +24,7 @@ h1 {
   th,
   td,
   footer {
-    border: 1rem solid hsl(234, 54%, 57%);
+    border: 1rem solid #5662cd;
   } 
   footer{
     margin: -5rem 5rem 5rem;
@@ -38,7 +38,7 @@ h1 {
   .topnav {
     margin: 0;
     overflow: hidden;
-    background-color: hsl(228, 41%, 35%);
+    background-color: #35437e;
   }
   
   .topnav a {
@@ -51,13 +51,13 @@ h1 {
   }
   
   .topnav a:hover {
-    background-color: hsl(0, 0%, 87%);
-    color: black;
+    background-color: #dedede;
+    color: #000000;
   }
   
   .topnav a.active {
-    background-color: hsl(244, 60%, 53%);
-    color: hsl(0, 15%, 95%);
+    background-color: #493fcf;
+    color: #f4f0f0;
   }
 @media (max-width: 700px){
    .rows, .second-row{
