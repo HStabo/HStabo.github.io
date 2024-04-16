@@ -18,7 +18,7 @@ h1 {
     background-color: #dcda5b
   }
 
-
+/* Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative. */
 
   table,
   th,
@@ -33,14 +33,14 @@ h1 {
   .footer{
     text-align: center;
   }
-
+/* Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box. */
   
   .topnav {
     margin: 0;
     overflow: hidden;
     background-color: #35437e;
   }
-  
+  /* Specifies how a box should be floated. It may be set for any element, but only applies to elements that generate boxes that are not absolutely positioned. */
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -65,4 +65,33 @@ h1 {
 
    }
 
+}
+/* Specifies how flex items are placed in the flex container, by setting the direction of the flex container's main axis */
+/* page 2 css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+header {
+  background-color: #344687;
+  color: #fff;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+.container {
+  max-width: 200rem;
+  margin: 5rem auto;
+  padding: 0 5rem;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 2rem 6rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
 }
