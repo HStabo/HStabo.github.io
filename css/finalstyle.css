@@ -61,15 +61,35 @@ h1 {
     background-color: #493fcf;
     color: #f4f0f0;
   }
+  /* media is for mobile version  */
 @media (max-width: 700px){
    .rows, .second-row{
         flex-direction: column;
+   }
+    .all-stuff, footer{
+      background-color: #dcda5b;
+      border: 0.6rem solid #5662cd;
+      padding: 4rem;
+      margin: 2rem;
+  }
+    h1 {
+      color: #61144d;
+      background-color: #dcda5b
+    }
+    .topnav a {
+      float: left;
+      color: #130404;
+      text-align: center;
+      padding: 1.5rem 1.5rem;
+      text-decoration: none;
+      font-size: .4rem;
+    }
+
+    
 
    }
 /* too big for phone for text color  */
 
-
-}
 /* Specifies how flex items are placed in the flex container, by setting the direction of the flex container's main axis */
 /* page 2 css */
 body {
