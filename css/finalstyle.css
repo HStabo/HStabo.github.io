@@ -44,6 +44,7 @@ h1 {
   }
   /* Specifies how a box should be floated. It may be set for any element, but only applies to elements that generate boxes that are not absolutely positioned. */
   .topnav a {
+    background-color: #606472;
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -57,11 +58,11 @@ h1 {
     color: #000000;
   }
   
-  .topnav a.active {
+  .topnav a:active {
     background-color: #493fcf;
     color: #f4f0f0;
   }
-  /* media is for mobile version  */
+  /* media is for mobile version. For adjusting the screen. For a fixed amount of the size of the screen   */
 @media (max-width: 700px){
    .rows, .second-row{
         flex-direction: column;
