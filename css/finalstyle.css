@@ -69,9 +69,9 @@ h1 {
    }
     .all-stuff, footer{
       background-color: #dcda5b;
-      border: 0.6rem solid #5662cd;
-      padding: 4rem;
-      margin: 2rem;
+      border: .8rem solid #5662cd;
+      padding: 0.8rem;
+      margin: 0.2rem;
   }
     h1 {
       color: #61144d;
