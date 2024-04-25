@@ -3,7 +3,7 @@
     font-family: Mirza;
 }
 body {
-    margin: 0;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 
   }
@@ -40,7 +40,6 @@ h1 {
   
   .topnav {
     margin: 0;
-    overflow: hidden;
     background-color: #35437e;
   }
   /* Specifies how a box should be floated. It may be set for any element, but only applies to elements that generate boxes that are not absolutely positioned. */
@@ -67,6 +66,8 @@ h1 {
         flex-direction: column;
 
    }
+/* too big for phone for text color  */
+
 
 }
 /* Specifies how flex items are placed in the flex container, by setting the direction of the flex container's main axis */
@@ -98,6 +99,19 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-class 
-
-
+.background-color1 {
+  color: #20c5da;
+  background-color: #cb18c8;
+}
+.background-color2{
+  color: #344687;
+  background-color: #1ee322;
+}
+.background-color3{
+  color: #1843de;
+  background-color: #f26565;
+}
+.background-color4{
+  color: #eaecf0;
+  background-color: #5662cd;
+}
