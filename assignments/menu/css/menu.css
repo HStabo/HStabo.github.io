@@ -1,0 +1,63 @@
+/* css for the menu and footer  */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+}
+.all-stuff,
+footer {
+  background-color: #dcda5b;
+  border: 1rem solid #5662cd;
+  padding: 10rem;
+  margin: 5rem;
+}
+h1 {
+  color: #61144d;
+  background-color: #dcda5b;
+}
+
+table,
+th,
+td,
+footer {
+  border: 1rem solid #5662cd;
+}
+footer {
+  margin: 0rem 5rem 5rem;
+  padding: 5rem;
+}
+.footer {
+  text-align: center;
+}
+
+.topnav {
+  margin: 0;
+  overflow: hidden;
+  background-color: #35437e;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2.5rem 3rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.topnav a:hover {
+  background-color: #dedede;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #493fcf;
+  color: hsl(0, 15%, 95%);
+}
+@media (max-width: 700px) {
+  .rows,
+  .second-row {
+    flex-direction: column;
+  }
+}
